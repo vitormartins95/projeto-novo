@@ -65,6 +65,7 @@ section.normal {
 section.imagem {
     background-color: var(--cor5);
     color: var(--cor1);
+    background-image: url('imagem/bolo-brilho.jpg');
 }
 
 section.imagem >p {
@@ -79,7 +80,7 @@ section >p {
 }
 
 section#img01 {
-    background-image: url('imagem/janela-flores.jpg');
+    
 }
 footer {
     background-color: var(--cor4);
