@@ -57,6 +57,11 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--fonte1);
+    font-size: 20px;
+    max-width: 800px;
+    min-width: 280px;
+    margin: auto;
 }
 
 section.normal {
@@ -65,7 +70,9 @@ section.normal {
 section.imagem {
     background-color: var(--cor5);
     color: var(--cor1);
-    background-image: url('imagem/bolo-brilho.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    
 }
 
 section.imagem >p {
@@ -80,11 +87,20 @@ section >p {
 }
 
 section#img01 {
+    background-image: url('../imagem/janela-flores.jpg');
+    background-position: right center;
+    
     
 }
+section#img02 {
+    background-image: url('../imagem/bolo-brilho.jpg');
+    background-position: center center;
+}
+   
 footer {
     background-color: var(--cor4);
     color: black;
-    margin-top: 30px;
     font-size: 15px;
+    padding: 10px;
+    text-align: center;
 }
